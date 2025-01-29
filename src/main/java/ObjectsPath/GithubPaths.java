@@ -16,8 +16,14 @@ public class GithubPaths {
 
     public static final By signUp = By.xpath("//*[@id='login']/div[5]/p/a");
 
-    public static final By terms = By.xpath("//*[@id='terms-of-service']/a[1]");
+    public static final By termsLink = By.xpath("//*[@id='terms-of-service']/a[1]");
 
-    public static final By privacy = By.xpath("//*[@id='terms-of-service']/a[2]");
+    public static final By githubPrivacy = By.xpath("//*[@id='terms-of-service']/a[2]");
+
+    public static final By email = By.xpath("//*[@id='login_field']");
+
+
+    public static final By login = By.xpath("//*[@id='login']/div[4]/form/div/input[13]");
+
 
 }
