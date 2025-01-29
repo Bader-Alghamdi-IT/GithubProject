@@ -30,6 +30,7 @@ public class LoginPages {
         WebElement TermsBtn = driver.findElement(terms);
         TermsBtn.click();
     }
+
     public void clickOnPrivacyBtn(){
         WebElement PrivacyBtn = driver.findElement(privacy);
         PrivacyBtn.click();
